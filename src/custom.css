@@ -1,0 +1,19 @@
+.responsive-mt {
+  margin-top: 5rem; /* mt-20 */
+}
+
+@media (min-width: 1024px) {
+  .responsive-mt {
+    margin-top: 0; /* mt-0 */
+  }
+}
+
+.instagram-hover:hover {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.facebook-hover:hover {
+  color: #1877f2; /* Bleu officiel Facebook */
+}
